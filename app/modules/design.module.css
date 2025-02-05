@@ -1,0 +1,66 @@
+.calendarContainer {
+    width: 120px;
+    height: 40px;
+    background: rgb(10, 10, 10);
+}
+
+.month {
+    margin-left:5px;
+    margin-top: 5px;
+    color: gray;
+}
+
+.monthSelector {
+    background-color: rgb(19, 18, 18);
+    color: white;
+    width: 110px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    appearance: none;
+    -webkit-appearance: none; /* Safari */
+    -moz-appearance: none; /* Firefox */
+}
+.monthSelector:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+
+ 
+  /*--------------------*/
+  .dropdown {
+    position: relative;
+    width: 200px;
+  }
+  
+  .selected {
+    background: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .list {
+    position: absolute;
+    background: white;
+    width: 100%;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list li {
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    transition: background 0.3s;
+  }
+  
+  .list li:hover {
+    background-color: rgb(44, 23, 239); /* Custom hover background */
+    color: white;
+  }
+  
